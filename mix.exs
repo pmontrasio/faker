@@ -40,6 +40,7 @@ defmodule Faker.Mixfile do
 
   defp deps do
     [
+      {:benchee, "~> 0.11", only: :dev},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:earmark, ">= 0.0.0", only: :dev, runtime: false},
       {:credo, ">= 0.0.0", only: [:dev, :test], runtime: false},
